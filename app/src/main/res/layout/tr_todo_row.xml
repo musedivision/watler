@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tr_todo_row"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="265dp"
+            android:layout_height="42dp"
+            android:text="Clean my Room"
+            android:textSize="25sp"
+            android:layout_weight="0.86" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="88dp"
+            android:layout_height="511dp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</TableRow>
